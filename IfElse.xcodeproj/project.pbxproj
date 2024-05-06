@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C75FEB782BDBBBD5003427E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB772BDBBBD5003427E9 /* main.swift */; };
-		C75FEB7F2BDBBBEF003427E9 /* ChampernowneWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* ChampernowneWord.swift */; };
-		C75FEB8C2BDBBC7E003427E9 /* ChampernowneWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB8B2BDBBC7E003427E9 /* ChampernowneWordTests.swift */; };
-		C75FEB8D2BDBBE83003427E9 /* ChampernowneWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* ChampernowneWord.swift */; };
+		C75FEB7F2BDBBBEF003427E9 /* Champernowne's word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */; };
+		C75FEB8C2BDBBC7E003427E9 /* Champernowne's word tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */; };
+		C75FEB8D2BDBBE83003427E9 /* Champernowne's word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 /* Begin PBXFileReference section */
 		C75FEB742BDBBBD5003427E9 /* ifelse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ifelse; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75FEB772BDBBBD5003427E9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		C75FEB7E2BDBBBEF003427E9 /* ChampernowneWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampernowneWord.swift; sourceTree = "<group>"; };
+		C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Champernowne's word.swift"; sourceTree = "<group>"; };
 		C75FEB842BDBBC39003427E9 /* IfElseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IfElseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75FEB8B2BDBBC7E003427E9 /* ChampernowneWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampernowneWordTests.swift; sourceTree = "<group>"; };
+		C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Champernowne's word tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		C75FEB762BDBBBD5003427E9 /* IfElse */ = {
 			isa = PBXGroup;
 			children = (
-				C75FEB7E2BDBBBEF003427E9 /* ChampernowneWord.swift */,
+				C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */,
 				C75FEB772BDBBBD5003427E9 /* main.swift */,
 			);
 			path = IfElse;
@@ -81,7 +81,7 @@
 		C75FEB852BDBBC39003427E9 /* IfElseTests */ = {
 			isa = PBXGroup;
 			children = (
-				C75FEB8B2BDBBC7E003427E9 /* ChampernowneWordTests.swift */,
+				C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */,
 			);
 			path = IfElseTests;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75FEB7F2BDBBBEF003427E9 /* ChampernowneWord.swift in Sources */,
+				C75FEB7F2BDBBBEF003427E9 /* Champernowne's word.swift in Sources */,
 				C75FEB782BDBBBD5003427E9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,8 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75FEB8D2BDBBE83003427E9 /* ChampernowneWord.swift in Sources */,
-				C75FEB8C2BDBBC7E003427E9 /* ChampernowneWordTests.swift in Sources */,
+				C75FEB8D2BDBBE83003427E9 /* Champernowne's word.swift in Sources */,
+				C75FEB8C2BDBBC7E003427E9 /* Champernowne's word tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
