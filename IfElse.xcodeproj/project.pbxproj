@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74726182BE8C58000B0D546 /* Squared away.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74726172BE8C58000B0D546 /* Squared away.swift */; };
+		C747261A2BE8C59800B0D546 /* Squared away tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74726192BE8C59800B0D546 /* Squared away tests.swift */; };
+		C747261B2BE8C60B00B0D546 /* Squared away.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74726172BE8C58000B0D546 /* Squared away.swift */; };
 		C75FEB782BDBBBD5003427E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB772BDBBBD5003427E9 /* main.swift */; };
 		C75FEB7F2BDBBBEF003427E9 /* Champernowne's word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */; };
 		C75FEB8C2BDBBC7E003427E9 /* Champernowne's word tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */; };
@@ -26,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C74726172BE8C58000B0D546 /* Squared away.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Squared away.swift"; sourceTree = "<group>"; };
+		C74726192BE8C59800B0D546 /* Squared away tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Squared away tests.swift"; sourceTree = "<group>"; };
 		C75FEB742BDBBBD5003427E9 /* ifelse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ifelse; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75FEB772BDBBBD5003427E9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Champernowne's word.swift"; sourceTree = "<group>"; };
@@ -74,6 +79,7 @@
 			children = (
 				C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */,
 				C75FEB772BDBBBD5003427E9 /* main.swift */,
+				C74726172BE8C58000B0D546 /* Squared away.swift */,
 			);
 			path = IfElse;
 			sourceTree = "<group>";
@@ -82,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */,
+				C74726192BE8C59800B0D546 /* Squared away tests.swift */,
 			);
 			path = IfElseTests;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 			files = (
 				C75FEB7F2BDBBBEF003427E9 /* Champernowne's word.swift in Sources */,
 				C75FEB782BDBBBD5003427E9 /* main.swift in Sources */,
+				C74726182BE8C58000B0D546 /* Squared away.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C747261B2BE8C60B00B0D546 /* Squared away.swift in Sources */,
+				C747261A2BE8C59800B0D546 /* Squared away tests.swift in Sources */,
 				C75FEB8D2BDBBE83003427E9 /* Champernowne's word.swift in Sources */,
 				C75FEB8C2BDBBC7E003427E9 /* Champernowne's word tests.swift in Sources */,
 			);
@@ -329,6 +339,7 @@
 				DEVELOPMENT_TEAM = N32ZX49MZ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = ifelse;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
