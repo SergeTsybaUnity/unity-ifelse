@@ -8,15 +8,13 @@
 import Foundation
 
 func squaredAway() -> Int {
+	var rangeSum = 1
 	var sum = 0
-	var last = 1
 	
-	for base in 1..<1_000_000 {
-		last += squares(in: 2 * base - 1)
-		last += squares(in: 2 * base)
-		last += 2
-		
-		sum += last
+	for root in 2...1_000_000 {
+		rangeSum += squares(in: root * root - 1)
+		rangeSum += squares(in: root * root - 2)
+		sum += rangeSum
 	}
 	
 	return sum + 1
