@@ -21,11 +21,7 @@ let programs: [String: Program] = [
 		}
 	},
 	"squared-away": { _ in
-		let sum = (1...1_000_000_000_000)
-			.map({ $0.squares.count })
-			.reduce(0, +)
-		
-		print(sum)
+		print(squaredAway())
 	}
 ]
 
