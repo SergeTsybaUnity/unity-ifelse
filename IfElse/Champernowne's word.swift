@@ -1,11 +1,23 @@
 //
 //  Champernowne's word.swift
 //  IfElse
+//	https://docs.google.com/document/d/1jTlXkryFioVkadtM3O9naJGEP9B-Q67pX58_bxxBp-0/
 //
 //  Created by Serge Tsyba on 26.4.2024.
 //
 
 import Foundation
+
+func champernowneWord() -> Int {
+	let word = ChampernowneWord()
+	var indexes = (1...4)
+		.flatMap({ word.nthIndexes(digitCount: $0) })
+	
+	let index = word.nthIndex(of: 10000)
+	indexes.append(index)
+	
+	return indexes.reduce(0, +)
+}
 
 struct ChampernowneWord {
 	func nthIndex(of number: Int) -> Int {
