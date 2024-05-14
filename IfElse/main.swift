@@ -15,7 +15,7 @@ let programs: [String: Program] = [
 		print(squaredAway())
 	},
 	"rasterized-voronoi-diagrams": { _ in
-		print(rasterizedVoronoiDigrams())		
+		print(rasterizedVoronoiDigrams())
 	}
 ]
 
@@ -29,7 +29,7 @@ guard let program = programs[arguments[1]] else {
 	exit(1)
 }
 
-program(arguments.suffix(from: 1))
+program(arguments.suffix(from: 2))
 
 
 // MARK: -

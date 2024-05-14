@@ -16,6 +16,7 @@
 		C75FEB8D2BDBBE83003427E9 /* Champernowne's word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */; };
 		C7C967402BF2021700810F81 /* Rasterized Voronoi diagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C9673F2BF2021700810F81 /* Rasterized Voronoi diagrams.swift */; };
 		C7C967422BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C967412BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift */; };
+		C7C967432BF21A4D00810F81 /* Rasterized Voronoi diagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C9673F2BF2021700810F81 /* Rasterized Voronoi diagrams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -200,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C967432BF21A4D00810F81 /* Rasterized Voronoi diagrams.swift in Sources */,
 				C747261B2BE8C60B00B0D546 /* Squared away.swift in Sources */,
 				C7C967422BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift in Sources */,
 				C747261A2BE8C59800B0D546 /* Squared away tests.swift in Sources */,
