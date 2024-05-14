@@ -1,6 +1,7 @@
 //
 //  Squared away.swift
 //  IfElse
+//	https://docs.google.com/document/d/1fBMlyOeo60xE6uR8a0YFzf8h5fLQtesy1HoAyl-e3L4/
 //
 //  Created by Serge Tsyba on 6.5.2024.
 //

@@ -8,20 +8,14 @@
 typealias Program = (any Sequence<String>) -> ()
 
 let programs: [String: Program] = [
-	"champernowne": { _ in
-		let word = ChampernowneWord()
-		var indexes = (1...4)
-			.flatMap({ word.nthIndexes(digitCount: $0) })
-		
-		let index = word.nthIndex(of: 10000)
-		indexes.append(index)
-		
-		for index in indexes.enumerated() {
-			print("\(index.0 + 1)\t\(index.1)")
-		}
+	"champernowne-word": { _ in
+		print(champernowneWord())
 	},
 	"squared-away": { _ in
 		print(squaredAway())
+	},
+	"rasterized-voronoi-diagrams": { _ in
+		print(rasterizedVoronoiDigrams())
 	}
 ]
 
@@ -35,7 +29,7 @@ guard let program = programs[arguments[1]] else {
 	exit(1)
 }
 
-program(arguments.suffix(from: 1))
+program(arguments.suffix(from: 2))
 
 
 // MARK: -
