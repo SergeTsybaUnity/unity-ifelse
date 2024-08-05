@@ -16,6 +16,9 @@ let programs: [String: Program] = [
 	},
 	"rasterized-voronoi-diagrams": { _ in
 		print(rasterizedVoronoiDigrams())
+	},
+	"moving-minimum": { _ in
+		print(movingMin(count: 10_000_000, width: 1000, digits: 3))
 	}
 ]
 
@@ -35,9 +38,11 @@ program(arguments.suffix(from: 2))
 // MARK: -
 // MARK: Convenience functionality
 private func printUsage() {
-	let name = CommandLine.arguments[0]
-	let commands = programs.keys
-		.joined(separator: "|")
+	let program = CommandLine.arguments[0]
+	print("usage: \(program) <command>")
+	print("commands:")
 	
-	print("usage: \(name) [\(commands)]")
+	for command in programs.keys {
+		print("\t\(command)")
+	}
 }
