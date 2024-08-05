@@ -14,6 +14,9 @@
 		C75FEB7F2BDBBBEF003427E9 /* Champernowne's word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */; };
 		C75FEB8C2BDBBC7E003427E9 /* Champernowne's word tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */; };
 		C75FEB8D2BDBBE83003427E9 /* Champernowne's word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */; };
+		C772C2572C60D0AB001385CE /* Moving minimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C772C2562C60D0AB001385CE /* Moving minimum.swift */; };
+		C772C2592C60D0B8001385CE /* Moving minimum tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C772C2582C60D0B8001385CE /* Moving minimum tests.swift */; };
+		C772C25A2C60D203001385CE /* Moving minimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C772C2562C60D0AB001385CE /* Moving minimum.swift */; };
 		C7C967402BF2021700810F81 /* Rasterized Voronoi diagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C9673F2BF2021700810F81 /* Rasterized Voronoi diagrams.swift */; };
 		C7C967422BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C967412BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift */; };
 		C7C967432BF21A4D00810F81 /* Rasterized Voronoi diagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C9673F2BF2021700810F81 /* Rasterized Voronoi diagrams.swift */; };
@@ -39,6 +42,8 @@
 		C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Champernowne's word.swift"; sourceTree = "<group>"; };
 		C75FEB842BDBBC39003427E9 /* IfElseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IfElseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Champernowne's word tests.swift"; sourceTree = "<group>"; };
+		C772C2562C60D0AB001385CE /* Moving minimum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moving minimum.swift"; sourceTree = "<group>"; };
+		C772C2582C60D0B8001385CE /* Moving minimum tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moving minimum tests.swift"; sourceTree = "<group>"; };
 		C7C9673F2BF2021700810F81 /* Rasterized Voronoi diagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rasterized Voronoi diagrams.swift"; sourceTree = "<group>"; };
 		C7C967412BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rasteried Voronoi diagrams tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +89,7 @@
 			children = (
 				C75FEB7E2BDBBBEF003427E9 /* Champernowne's word.swift */,
 				C75FEB772BDBBBD5003427E9 /* main.swift */,
+				C772C2562C60D0AB001385CE /* Moving minimum.swift */,
 				C7C9673F2BF2021700810F81 /* Rasterized Voronoi diagrams.swift */,
 				C74726172BE8C58000B0D546 /* Squared away.swift */,
 			);
@@ -94,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C75FEB8B2BDBBC7E003427E9 /* Champernowne's word tests.swift */,
+				C772C2582C60D0B8001385CE /* Moving minimum tests.swift */,
 				C7C967412BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift */,
 				C74726192BE8C59800B0D546 /* Squared away tests.swift */,
 			);
@@ -145,7 +152,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					C75FEB732BDBBBD5003427E9 = {
 						CreatedOnToolsVersion = 15.3;
@@ -190,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C772C2572C60D0AB001385CE /* Moving minimum.swift in Sources */,
 				C75FEB7F2BDBBBEF003427E9 /* Champernowne's word.swift in Sources */,
 				C75FEB782BDBBBD5003427E9 /* main.swift in Sources */,
 				C74726182BE8C58000B0D546 /* Squared away.swift in Sources */,
@@ -201,12 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C772C25A2C60D203001385CE /* Moving minimum.swift in Sources */,
 				C7C967432BF21A4D00810F81 /* Rasterized Voronoi diagrams.swift in Sources */,
 				C747261B2BE8C60B00B0D546 /* Squared away.swift in Sources */,
 				C7C967422BF2022700810F81 /* Rasteried Voronoi diagrams tests.swift in Sources */,
 				C747261A2BE8C59800B0D546 /* Squared away tests.swift in Sources */,
 				C75FEB8D2BDBBE83003427E9 /* Champernowne's word.swift in Sources */,
 				C75FEB8C2BDBBC7E003427E9 /* Champernowne's word tests.swift in Sources */,
+				C772C2592C60D0B8001385CE /* Moving minimum tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +257,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -310,6 +321,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -335,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N32ZX49MZ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = ifelse;
@@ -346,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N32ZX49MZ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = ifelse;
@@ -360,6 +374,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N32ZX49MZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -377,6 +392,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N32ZX49MZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
